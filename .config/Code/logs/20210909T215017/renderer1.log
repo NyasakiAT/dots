@@ -1,0 +1,17 @@
+[2021-09-09 21:51:32.915] [renderer1] [warning] UNRESPONSIVE extension host, 'swyphcosmo.spellchecker' took 94% of 5121.631ms, saved PROFILE here: 'file:///tmp/exthost-540fe1.cpuprofile' [{"id":"dbaeumer.vscode-eslint","total":458,"percentage":0},{"id":"gc","total":283319,"percentage":6},{"id":"icrawl.discord-vscode","total":4402,"percentage":0},{"id":"ms-vsliveshare.vsliveshare","total":302,"percentage":0},{"id":"naumovs.color-highlight","total":303,"percentage":0},{"id":"self","total":2575,"percentage":0},{"id":"swyphcosmo.spellchecker","total":4829516,"percentage":94},{"id":"vscode.emmet","total":151,"percentage":0},{"id":"vscode.git","total":305,"percentage":0},{"id":"vscode.merge-conflict","total":154,"percentage":0}]
+[2021-09-09 21:51:33.079] [renderer1] [error] Running the contributed command: 'vscode.executeCodeLensProvider' failed.: Error: Running the contributed command: 'vscode.executeCodeLensProvider' failed.
+	at S._executeContributedCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:120745)
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+	at async OpportunisticCodeLensProvider.provideCodeLenses (/home/mwalk/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.4761/out/prod/extension-prod.js:203629:35)
+	at async f.provideCodeLenses (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:170550)
+[2021-09-09 21:55:21.538] [renderer1] [warning] {}
+[2021-09-09 21:55:27.130] [renderer1] [warning] UNRESPONSIVE extension host, 'swyphcosmo.spellchecker' took 94% of 5194.794ms, saved PROFILE here: 'file:///tmp/exthost-d37947.cpuprofile' [{"id":"gc","total":296432,"percentage":6},{"id":"swyphcosmo.spellchecker","total":4898225,"percentage":94}]
+[2021-09-09 21:55:34.188] [renderer1] [warning] {}
+[2021-09-09 21:55:39.186] [renderer1] [warning] {}
+[2021-09-09 22:50:02.807] [renderer1] [warning] UNRESPONSIVE extension host, 'swyphcosmo.spellchecker' took 92% of 5155.887ms, saved PROFILE here: 'file:///tmp/exthost-a0075f.cpuprofile' [{"id":"gc","total":397793,"percentage":8},{"id":"swyphcosmo.spellchecker","total":4757963,"percentage":92}]
+[2021-09-09 22:50:15.433] [renderer1] [warning] UNRESPONSIVE extension host, 'swyphcosmo.spellchecker' took 93% of 5133.747ms, saved PROFILE here: 'file:///tmp/exthost-da2a0a.cpuprofile' [{"id":"gc","total":369343,"percentage":7},{"id":"swyphcosmo.spellchecker","total":4764209,"percentage":93}]
+[2021-09-09 22:50:26.181] [renderer1] [error] Running the contributed command: 'vscode.executeCodeLensProvider' failed.: Error: Running the contributed command: 'vscode.executeCodeLensProvider' failed.
+	at S._executeContributedCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:120745)
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+	at async OpportunisticCodeLensProvider.provideCodeLenses (/home/mwalk/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.4761/out/prod/extension-prod.js:203629:35)
+	at async f.provideCodeLenses (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:170550)

@@ -1,0 +1,5 @@
+[2021-09-07 22:27:05.558] [renderer1] [error] Running the contributed command: 'vscode.executeCodeLensProvider' failed.: Error: Running the contributed command: 'vscode.executeCodeLensProvider' failed.
+	at S._executeContributedCommand (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:120745)
+	at processTicksAndRejections (internal/process/task_queues.js:93:5)
+	at async OpportunisticCodeLensProvider.provideCodeLenses (/home/mwalk/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.4761/out/prod/extension-prod.js:203629:35)
+	at async f.provideCodeLenses (/opt/visual-studio-code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:84:170550)

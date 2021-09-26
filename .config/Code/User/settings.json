@@ -1,0 +1,50 @@
+{
+    "files.autoSave": "afterDelay",
+    "editor.rulers": [
+        {
+            "column": 80,
+            "color": "#66ff75"
+        },
+        {
+            "column": 100,
+            "color": "#ffbd66"
+        },
+        {
+            "column": 120,
+            "color": "#ff6666"
+        }
+    ],
+    "remote.SSH.remotePlatform": {
+        "85.209.51.114": "linux"
+    },
+    "editor.fontFamily": "Orbitron, monospace",
+    "telemetry.enableTelemetry": false,
+    "explorer.confirmDelete": false,
+    "window.menuBarVisibility": "toggle",
+    "workbench.statusBar.visible": true,
+    "git.enableSmartCommit": true,
+    "workbench.colorTheme": "βui - Minimal Green",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "explorer.confirmDragAndDrop": false,
+    "git.confirmSync": false,
+    "extensions.ignoreRecommendations": false,
+    "git.autofetch": true,
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "yaml.customTags": [
+        "!encrypted/pkcs1-oaep scalar",
+        "!vault scalar"
+    ],
+    "redhat.telemetry.enabled": false,
+}

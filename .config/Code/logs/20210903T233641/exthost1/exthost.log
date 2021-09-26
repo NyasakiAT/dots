@@ -1,0 +1,69 @@
+[2021-09-03 23:36:42.306] [exthost] [info] extension host started
+[2021-09-03 23:36:42.306] [exthost] [info] Skipping acquiring lock for /home/mwalk/.config/Code/User/workspaceStorage/a4d0324ba647f0c263db759e09a945ef.
+[2021-09-03 23:36:42.328] [exthost] [info] ExtensionService#_doActivateExtension bilal-arikan.csharp-auto-formatter {"startup":false,"extensionId":{"value":"bilal-arikan.csharp-auto-formatter","_lower":"bilal-arikan.csharp-auto-formatter"},"activationEvent":"onFileSystem:file"}
+[2021-09-03 23:36:42.328] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/mwalk/.vscode/extensions/bilal-arikan.csharp-auto-formatter-0.1.0/out/src/extension
+[2021-09-03 23:36:42.330] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2021-09-03 23:36:42.330] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-09-03 23:36:42.336] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-09-03 23:36:42.336] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-09-03 23:36:42.338] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-09-03 23:36:42.338] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/git/dist/main
+[2021-09-03 23:36:42.350] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.path-intellisense {"startup":true,"extensionId":{"value":"christian-kohler.path-intellisense","_lower":"christian-kohler.path-intellisense"},"activationEvent":"*"}
+[2021-09-03 23:36:42.350] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/mwalk/.vscode/extensions/christian-kohler.path-intellisense-2.4.0/out/extension.js
+[2021-09-03 23:36:42.364] [exthost] [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css {"startup":true,"extensionId":{"value":"ecmel.vscode-html-css","_lower":"ecmel.vscode-html-css"},"activationEvent":"*"}
+[2021-09-03 23:36:42.364] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/mwalk/.vscode/extensions/ecmel.vscode-html-css-1.10.2/dist/extension.js
+[2021-09-03 23:36:42.374] [exthost] [info] ExtensionService#_doActivateExtension HookyQR.beautify {"startup":true,"extensionId":{"value":"HookyQR.beautify","_lower":"hookyqr.beautify"},"activationEvent":"*"}
+[2021-09-03 23:36:42.374] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/mwalk/.vscode/extensions/hookyqr.beautify-1.5.0/extension
+[2021-09-03 23:36:42.406] [exthost] [info] ExtensionService#_doActivateExtension icrawl.discord-vscode {"startup":true,"extensionId":{"value":"icrawl.discord-vscode","_lower":"icrawl.discord-vscode"},"activationEvent":"*"}
+[2021-09-03 23:36:42.406] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/mwalk/.vscode/extensions/icrawl.discord-vscode-5.7.0/dist/extension
+[2021-09-03 23:36:42.410] [exthost] [info] ExtensionService#_doActivateExtension ms-vsliveshare.vsliveshare {"startup":true,"extensionId":{"value":"ms-vsliveshare.vsliveshare","_lower":"ms-vsliveshare.vsliveshare"},"activationEvent":"*"}
+[2021-09-03 23:36:42.410] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/mwalk/.vscode/extensions/ms-vsliveshare.vsliveshare-1.0.4631/out/prod/extension-prod
+[2021-09-03 23:36:42.513] [exthost] [info] ExtensionService#_doActivateExtension swyphcosmo.spellchecker {"startup":true,"extensionId":{"value":"swyphcosmo.spellchecker","_lower":"swyphcosmo.spellchecker"},"activationEvent":"*"}
+[2021-09-03 23:36:42.513] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/mwalk/.vscode/extensions/swyphcosmo.spellchecker-1.3.0/out/src/extension
+[2021-09-03 23:36:42.523] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm {"startup":true,"extensionId":{"value":"vscode.npm","_lower":"vscode.npm"},"activationEvent":"workspaceContains:package.json"}
+[2021-09-03 23:36:42.523] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/npm/dist/npmMain
+[2021-09-03 23:36:42.830] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-09-03 23:36:42.830] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-09-03 23:36:42.889] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":false,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-09-03 23:36:42.889] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/github/dist/extension.js
+[2021-09-03 23:36:42.914] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2021-09-03 23:36:42.914] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/github-authentication/dist/extension.js
+[2021-09-03 23:36:43.663] [exthost] [info] eager extensions activated
+[2021-09-03 23:36:44.070] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-09-03 23:36:44.070] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-09-03 23:36:44.077] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-09-03 23:36:44.077] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-09-03 23:36:44.080] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-09-03 23:36:44.080] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/testing-editor-contributions/dist/extension.js
+[2021-09-03 23:36:44.081] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer-2 {"startup":false,"extensionId":{"value":"CoenraadS.bracket-pair-colorizer-2","_lower":"coenraads.bracket-pair-colorizer-2"},"activationEvent":"onStartupFinished"}
+[2021-09-03 23:36:44.081] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/mwalk/.vscode/extensions/coenraads.bracket-pair-colorizer-2-0.2.1/out/src/extension
+[2021-09-03 23:36:44.101] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":false,"extensionId":{"value":"dbaeumer.vscode-eslint","_lower":"dbaeumer.vscode-eslint"},"activationEvent":"onStartupFinished"}
+[2021-09-03 23:36:44.101] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/mwalk/.vscode/extensions/dbaeumer.vscode-eslint-2.1.23/client/out/extension
+[2021-09-03 23:40:00.549] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:javascript"}
+[2021-09-03 23:40:00.549] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/typescript-language-features/dist/extension
+[2021-09-03 23:40:00.570] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.npm-intellisense {"startup":false,"extensionId":{"value":"christian-kohler.npm-intellisense","_lower":"christian-kohler.npm-intellisense"},"activationEvent":"onLanguage:javascript"}
+[2021-09-03 23:40:00.570] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/mwalk/.vscode/extensions/christian-kohler.npm-intellisense-1.4.0/out/src/extension
+[2021-09-03 23:40:00.587] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.jshint {"startup":false,"extensionId":{"value":"dbaeumer.jshint","_lower":"dbaeumer.jshint"},"activationEvent":"onLanguage:javascript"}
+[2021-09-03 23:40:00.587] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/mwalk/.vscode/extensions/dbaeumer.jshint-0.11.0/jshint/out/extension
+[2021-09-03 23:40:00.619] [exthost] [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode {"startup":false,"extensionId":{"value":"VisualStudioExptTeam.vscodeintellicode","_lower":"visualstudioexptteam.vscodeintellicode"},"activationEvent":"onLanguage:javascript"}
+[2021-09-03 23:40:00.619] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/mwalk/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.2.14/dist/intellicode
+[2021-09-03 23:40:04.128] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:typescript"}
+[2021-09-03 23:40:04.128] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/extension-editing/dist/extensionEditingMain
+[2021-09-03 23:59:23.912] [exthost] [info] ExtensionService#_doActivateExtension batisteo.vscode-django {"startup":false,"extensionId":{"value":"batisteo.vscode-django","_lower":"batisteo.vscode-django"},"activationEvent":"onLanguage:django-html"}
+[2021-09-03 23:59:23.912] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/mwalk/.vscode/extensions/batisteo.vscode-django-1.6.0/out/extension
+[2021-09-04 01:00:23.201] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features {"startup":false,"extensionId":{"value":"vscode.css-language-features","_lower":"vscode.css-language-features"},"activationEvent":"onLanguage:css"}
+[2021-09-04 01:00:23.202] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/css-language-features/client/dist/node/cssClientMain
+[2021-09-04 01:05:10.724] [exthost] [error] [vscode.css-language-features] provider FAILED
+[2021-09-04 01:05:10.724] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/opt/visual-studio-code/resources/app/extensions/css-language-features/client/dist/node/cssClientMain.js:1:62179)
+	at w.handleFailedRequest (/opt/visual-studio-code/resources/app/extensions/css-language-features/client/dist/node/cssClientMain.js:1:62030)
+	at /opt/visual-studio-code/resources/app/extensions/css-language-features/client/dist/node/cssClientMain.js:1:22372
+[2021-09-04 01:05:10.724] [exthost] [error] [vscode.css-language-features] provider FAILED
+[2021-09-04 01:05:10.724] [exthost] [error] Canceled: Canceled
+	at w.makeCancelError (/opt/visual-studio-code/resources/app/extensions/css-language-features/client/dist/node/cssClientMain.js:1:62179)
+	at w.handleFailedRequest (/opt/visual-studio-code/resources/app/extensions/css-language-features/client/dist/node/cssClientMain.js:1:62030)
+	at /opt/visual-studio-code/resources/app/extensions/css-language-features/client/dist/node/cssClientMain.js:1:22372
+	at runNextTicks (internal/process/task_queues.js:58:5)
+	at processImmediate (internal/timers.js:434:9)
+[2021-09-04 01:06:38.221] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2021-09-04 01:06:38.221] [exthost] [info] ExtensionService#loadCommonJSModule file:///opt/visual-studio-code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain
