@@ -1,2 +1,0 @@
-[2021-09-08 21:55:37.148] [renderer1] [warning] UNRESPONSIVE extension host, 'swyphcosmo.spellchecker' took 95% of 5246.299ms, saved PROFILE here: 'file:///tmp/exthost-016694.cpuprofile' [{"id":"gc","total":259789,"percentage":5},{"id":"swyphcosmo.spellchecker","total":4986320,"percentage":95}]
-[2021-09-08 21:55:38.218] [renderer1] [warning] {}
