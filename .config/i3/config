@@ -191,6 +191,10 @@ bar {
 bindsym $mod+r mode "resize"
 bindsym Print exec flameshot gui
 
+# Set mouse speed - Needs to be changed if devide is different
+# https://wiki.archlinux.org/title/Mouse_acceleration
+xinput set-prop 8 299 -0.5
+
 exec /usr/bin/picom --experimental-backends
 exec feh --bg-fill ./wallpaper.jpg
 
