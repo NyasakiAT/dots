@@ -1,3 +1,12 @@
+export ZSH="/home/mwalk/.oh-my-zsh"
+plugins=(
+	git
+	colorize
+	zsh-autosuggestions
+)
+
+source $ZSH/oh-my-zsh.sh
+
 #-------------------------
 #--- GENERATED CONFIG
 #-------------------------

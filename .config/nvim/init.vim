@@ -7,7 +7,9 @@ call plug#begin()
 	Plug 'preservim/nerdtree'
 	Plug 'markonm/traces.vim'
 	Plug 'ryanoasis/vim-devicons'
-	"Plug 'Xuyuanp/nerdtree-git-plugin'
+	Plug 'majutsushi/tagbar'
+	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+	Plug 'junegunn/fzf.vim'
 call plug#end()
 
 
@@ -43,3 +45,15 @@ nnoremap <C-l> gt
 nnoremap <C-h> gT
 
 let NERDTreeCustomOpenArgs={'file':{'where': 't'}}
+
+
+"
+" TAGBAR
+"
+nmap <F8> :TagbarToggle<CR>
+
+
+"
+" FZF
+"
+nnoremap <silent> <C-f> :Files<CR>
