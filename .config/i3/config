@@ -142,10 +142,8 @@ bindsym $mod+Shift+8 move container to workspace number $ws8
 bindsym $mod+Shift+9 move container to workspace number $ws9
 bindsym $mod+Shift+0 move container to workspace number $ws10
 
-# reload the configuration file
-bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
-bindsym $mod+Shift+r restart
+bindsym $mod+Shift+r exec i3-msg reload && exec i3-msg restart 
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
 
@@ -174,28 +172,14 @@ mode "resize" {
         bindsym $mod+r mode "default"
 }
 
-#bar {
-#    font pango:DejaVu Sans Mono, FontAwesome 14
-#    position top
-#    status_command i3status-rs ~/.config/i3status-rust/config.toml
-#    status_command i3blocks
-#    colors {
-#       separator #666666
-#        background #222222
-#        statusline #dddddd
-#        focused_workspace #0088CC #0088CC #ffffff
-#        active_workspace #333333 #333333 #ffffff
-#        inactive_workspace #333333 #333333 #888888
-#        urgent_workspace #2f343a #900000 #ffffff
-#    }
-#}
-
 bindsym $mod+r mode "resize"
 bindsym Print exec flameshot gui
 
 # exec /usr/bin/picom --experimental-backends
 exec --no-startup-id ~/.config/polybar/launch.sh
+exec /usr/bin/dunst
 exec feh --bg-fill ./wallpaper.png
+exec cadmus
 
 for_window [class="^.*"] border pixel 0
 
