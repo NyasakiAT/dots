@@ -3,8 +3,6 @@ window:
     x: 20
     y: 20
 
-background_opacity: 1 
-
 colors:
   # Default colors
   primary:
@@ -32,8 +30,3 @@ colors:
     magenta: '#e1acff'
     cyan:    '#a3f7ff'
     white:   '#ffffff'
-
-
-# Font configuration
-font:
-  size: 13
