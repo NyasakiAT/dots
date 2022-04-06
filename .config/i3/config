@@ -175,29 +175,32 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 bindsym Print exec flameshot gui
 
-# bar {
-#   font pango:Inconsolata NF 12
+# Fix for tray
+exec xrandr --output HDMI-0 --primary
 
-#   position top
-#   tray_output primary
-#   status_command i3blocks
-#   separator_symbol " "
+bar {
+  font pango:Inconsolata NF 12
 
-#   colors {
-#     background #303030
-#     statusline #ffffff
-#     separator #666666
+  position top
+  tray_output primary
+  status_command i3blocks
+  separator_symbol " "
 
-#     focused_workspace  #9cc4ff #9cc4ff #303030
-#     active_workspace   #82aaff #82aaff #303030
-#     inactive_workspace #303030 #303030 #9cc4ff
-#     urgent_workspace   #ff8b92 #ff8b92 #303030
-#     binding_mode       #ffe585 #ffe585 #303030
-#   }
-# }
+  colors {
+    background #303030
+    statusline #ffffff
+    separator #666666
 
-exec /usr/bin/picom --experimental-backends
-exec --no-startup-id ~/.config/polybar/launch.sh
+    focused_workspace  #82aaff #82aaff #303030
+    active_workspace   #9cc4ff #9cc4ff #303030
+    inactive_workspace #303030 #303030 #82aaff
+    urgent_workspace   #ff8b92 #ff8b92 #303030
+    binding_mode       #ffe585 #ffe585 #303030
+  }
+}
+
+# exec /usr/bin/picom --experimental-backends
+# exec --no-startup-id ~/.config/polybar/launch.sh
 exec /usr/bin/dunst
 exec feh --bg-fill ./wallpaper.png
 exec cadmus
@@ -207,4 +210,4 @@ for_window [class="^.*"] border pixel 0
 gaps inner 15
 gaps outer 0
 
-exec notify-send "Arch" "Welcome Nyasaki,\nHave a nice day!"
+exec notify-send "Arch" "Welcome Nyasaki,\nhave a nice day!"
