@@ -1,4 +1,5 @@
 [disk_home]
+color=#82aaff
 command=./disk
 LABEL=HOME 
 DIR=/home/mwalk
@@ -6,6 +7,7 @@ ALERT_LOW=50
 interval=30
 
 [disk_root]
+color=#82aaff
 command=./disk
 LABEL=ROOT 
 DIR=/
@@ -20,7 +22,7 @@ min_width=CPU: 100.00%
 T_WARN=50
 T_CRIT=80
 DECIMALS=2
-COLOR_NORMAL=#EBDBB2
+COLOR_NORMAL=#82aaff
 COLOR_WARN=#FFFC00
 COLOR_CRIT=#FF0000
 
@@ -30,21 +32,25 @@ label=GPU
 interval=10
 min_width=GPU 100% 100% 100% 100%
 GPU_BRAND=NVIDIA
+color=#82aaff
 T_WARN=65
 T_CRIT=80
 
 [memory]
+color=#82aaff
 command=./memory
 label=MEM 
 interval=30
 
 [memory_swap]
+color=#82aaff
 command=./memory
 label=SWAP 
 instance=swap
 interval=30
 
 [time]
+color=#82aaff
 label=CLK 
 command=date +%T
 interval=5
