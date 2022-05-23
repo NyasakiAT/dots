@@ -28,7 +28,7 @@ COLOR_CRIT=#FF0000
 
 [gpu-load]
 command=./gpu-load
-label=GPU
+label=GPU 
 interval=10
 min_width=GPU 100% 100% 100% 100%
 GPU_BRAND=NVIDIA
