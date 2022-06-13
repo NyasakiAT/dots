@@ -30,3 +30,23 @@ colors:
     magenta: '#e1acff'
     cyan:    '#a3f7ff'
     white:   '#ffffff'
+
+# Font configuration
+font:
+  normal:
+    family: Inconsolata Nerd Font
+    style: Regular
+
+  bold:
+    family: Inconsolata Nerd Font
+    style: Bold
+
+  italic:
+    family: Inconsolata Nerd Font
+    style: Italic
+
+  bold_italic:
+    family: Inconsolata Nerd Font
+    style: Bold Italic
+  
+  size: 13
