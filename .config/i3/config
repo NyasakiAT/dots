@@ -48,7 +48,7 @@ bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
 # bindsym $mod+d exec rofi -show drun -config ~/.config/rofi/config.rasi
-bindsym $mod+d exec dmenu_run -fn "Inconsolata NF-15" -nb '#303030' -sf '#ffffff' -sb '#82aaff' -nf '#ffffff'
+bindsym $mod+d exec dmenu_run -b -fn "Inconsolata NF-15" -nb '#303030' -sf '#ffffff' -sb '#82aaff' -nf '#ffffff'
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec rofi -modi drun,run -show drun
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -200,7 +200,7 @@ exec xrandr --output HDMI-0 --primary
 #}
 
 # exec /usr/bin/picom --experimental-backends
-exec --no-startup-id polybar #~/.config/polybar/launch.sh
+exec --no-startup-id ~/.config/polybar/launch.sh
 exec /usr/bin/dunst
 exec feh --bg-fill ./wallpaper.png
 
