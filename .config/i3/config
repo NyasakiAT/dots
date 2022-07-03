@@ -47,8 +47,8 @@ bindsym $mod+Return exec alacritty
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-# bindsym $mod+d exec rofi -show drun -config ~/.config/rofi/config.rasi
-bindsym $mod+d exec dmenu_run -b -fn "Inconsolata NF-15" -nb '#303030' -sf '#ffffff' -sb '#82aaff' -nf '#ffffff'
+bindsym $mod+d exec rofi -show drun -config ~/.config/rofi/config.rasi
+# bindsym $mod+d exec dmenu_run -b -fn "Inconsolata NF-15" -nb '#303030' -sf '#ffffff' -sb '#82aaff' -nf '#ffffff'
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec rofi -modi drun,run -show drun
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -178,33 +178,38 @@ bindsym Print exec maim -s -u | xclip -selection clipboard -t image/png -i
 # Fix for tray
 exec xrandr --output HDMI-0 --primary
 
-#bar {
-#  font pango:Inconsolata NF 12
-#
-#  position top
-#  tray_output primary
-#  status_command i3blocks
-#  separator_symbol " "
-#
-#  colors {
-#    background #303030
-#    statusline #ffffff
-#    separator #666666
-#
-#    focused_workspace  #82aaff #82aaff #303030
-#    active_workspace   #9cc4ff #9cc4ff #303030
-#    inactive_workspace #303030 #303030 #82aaff
-#    urgent_workspace   #ff8b92 #ff8b92 #303030
-#    binding_mode       #ffe585 #ffe585 #303030
-#  }
-#}
+bar {
+  # command in i3-gaps to allow rgba colors for i3bar
+  i3bar_command i3bar -t
+  output HDMI-0
+  position            top
+  tray_output         none  # do not show tray output
+  workspace_buttons   no    # do not show workspace buttons
+  height              46    # same height as polybar
 
-# exec /usr/bin/picom --experimental-backends
-exec --no-startup-id ~/.config/polybar/launch.sh
+  # prevent any accidental clicks/scrolls
+  bindsym button1 nop
+  bindsym button2 nop
+  bindsym button3 nop
+  bindsym button4 nop
+  bindsym button5 nop
+
+  colors {
+    # set bar background to transparent
+    background #00000000
+  }
+}
+
+exec /usr/bin/picom --experimental-backends
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec /usr/bin/dunst
 exec feh --bg-fill ./wallpaper.png
 
-for_window [class="^.*"] border pixel 0
+for_window [class="^.*"] border pixel 2
+
+client.focused #ffffff #ffffff #ffffff #ffffff #ffffff
+client.unfocused #303030 #303030 #303030 #303030 #303030
+client.focused_inactive #303030 #303030 #303030 #303030 #303030
 
 gaps inner 15
 gaps outer 0
