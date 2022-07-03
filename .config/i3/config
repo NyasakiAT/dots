@@ -41,7 +41,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec alacritty
+bindsym $mod+Return exec st
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -178,28 +178,29 @@ bindsym Print exec maim -s -u | xclip -selection clipboard -t image/png -i
 # Fix for tray
 exec xrandr --output HDMI-0 --primary
 
-bar {
-  # command in i3-gaps to allow rgba colors for i3bar
-  i3bar_command i3bar -t
-  output HDMI-0
-  position            top
-  tray_output         none  # do not show tray output
-  workspace_buttons   no    # do not show workspace buttons
-  height              46    # same height as polybar
+#bar {
+#  # command in i3-gaps to allow rgba colors for i3bar
+#  i3bar_command i3bar -t
+#  output HDMI-0
+#  position            top
+#  tray_output         none  # do not show tray output
+#  workspace_buttons   no    # do not show workspace buttons
+#  height              46    # same height as polybar
+#
+#  # prevent any accidental clicks/scrolls
+#  bindsym button1 nop
+#  bindsym button2 nop
+#  bindsym button3 nop
+#  bindsym button4 nop
+#  bindsym button5 nop
+#
+#  colors {
+#    # set bar background to transparent
+#    background #00000000
+#  }
+#}
 
-  # prevent any accidental clicks/scrolls
-  bindsym button1 nop
-  bindsym button2 nop
-  bindsym button3 nop
-  bindsym button4 nop
-  bindsym button5 nop
-
-  colors {
-    # set bar background to transparent
-    background #00000000
-  }
-}
-
+exec xrdb ~/.Xresources
 exec /usr/bin/picom --experimental-backends
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 exec /usr/bin/dunst
@@ -211,6 +212,7 @@ client.focused #ffffff #ffffff #ffffff #ffffff #ffffff
 client.unfocused #303030 #303030 #303030 #303030 #303030
 client.focused_inactive #303030 #303030 #303030 #303030 #303030
 
+#gaps top 46
 gaps inner 15
 gaps outer 0
 
